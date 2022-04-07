@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-mongoose": "^0.1.0",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15"
+  },
+  "name": "day1backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
