@@ -1,0 +1,93 @@
+.banner{
+    background-image: url("https://media.istockphoto.com/photos/isolated-of-shipping-paper-boxes-inside-blue-shopping-cart-trolley-on-picture-id1306668349?b=1&k=20&m=1306668349&s=170667a&w=0&h=lyTN3Kasg206073u4GMW2VwBzil8juVpt3nsqithplw=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vmin;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+a{text-decoration: none;}
+.banner>h1{
+    font-size: 60px;
+    font-weight:600px
+}
+.banner>p{
+    font-size:40px;
+
+}
+.banner>a>button{
+    margin-top:30px;
+    height:50px;
+    width:100px;
+    background:white;
+    border: 1px solid white;
+    border-radius:20px;
+    font-weight:bolder;
+
+
+}
+.banner>a>button:hover{
+    background:rgba(0, 255, 255, 0.422);
+    color:red;
+}
+
+#homeheading{
+    margin-top:20px;
+    text-align:center;
+    font: size 30px;
+    border-bottom: 3px solid grey;
+    width:20%;
+    
+    margin:auto;
+}
+#container{
+    display: flex;
+    margin:2vmax auto;
+    width:80vw;
+    padding:1vmax;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.productcard{
+    width:14vmax;
+    display: flex;
+    flex-direction: column;
+    color:rgb(48,48,48);
+    margin:2vmax;
+    transition:all 0.5vmax;
+    padding-bottom: 1vmax;
+
+}
+.productcard>img{
+    width:14vmax;
+    height:14vmax;
+
+}
+.productcard>div{
+    margin:0.5vmax;
+    display: flex;
+    flex-direction: column;
+}
+.productcard>div>span{
+    margin:1vmax;
+    font-weight: 300;
+}
+.productcard>p{
+    font-size:1.2vmax;
+    margin:1vmax 0.5vmax; 
+    margin-bottom:0;
+
+}
+.productcard>span{
+    margin:0.5vmax 0.5vmax;
+    color:red;
+    font-size:20px;
+}
+.productcard:hover{
+    box-shadow: 0 0 5px grey;
+    transform:translateY(-1vmax);
+}
