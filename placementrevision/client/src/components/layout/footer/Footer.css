@@ -1,0 +1,43 @@
+footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+img{
+    display: flex;
+    flex-direction: column;
+    height:140px;
+    margin-top:20px;
+}
+.middlefooter{
+    margin-left: 200px;
+    align-items: center;
+}
+.middlefooter>h1{
+    font-size: 60px;
+    color:tomato
+}
+.rightfooter{
+    margin-left: 200px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.rightfooter>h4{
+    font-size:30px;
+
+}
+#follow>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height:30px;
+
+}
+#follow>a:hover {
+    color: tomato;
+}

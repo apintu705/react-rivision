@@ -1,0 +1,55 @@
+.paymentcontainer {
+    margin-top:100px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+   
+  }
+  .paymentform {
+    width: 22%;
+    height: 100%;
+  }
+  .paymentform > p {
+    font: 400 2vmax "Roboto";
+    color: rgba(0, 0, 0, 0.753);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 1vmax 0;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  .paymentform > div {
+    display: flex;
+    align-items: center;
+    margin: 2vmax 0;
+  }
+  .paymentinput {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    outline: none;
+  }
+  .paymentbtn {
+    border: none;
+    background-color: tomato;
+    color: white;
+    font: 300 0.9vmax "Roboto";
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+  }
+  
+  .paymentbtn:hover {
+    background-color: rgb(179, 66, 46);
+  }
+  .paymentheading{
+      color:green;
+      text-align: center;
+
+  }

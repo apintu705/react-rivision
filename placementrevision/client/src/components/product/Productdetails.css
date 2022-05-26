@@ -1,0 +1,95 @@
+.productdetails{
+    padding:30px;
+    display:flex;
+    padding:2vmax;
+    justify-content:space-evenly;
+    
+    
+}
+
+.imagediv>img{
+    height:500px;
+    width: 400px;
+
+    
+    box-sizing: border-box;
+}
+.addtocart{
+    height:50px;
+    width: 150px;
+    background:tomato;
+    color:white;
+    border:1px solid tomato;
+    border-radius: 10px;
+}
+.addtocart:hover{
+    cursor: pointer;
+    background:black;
+}
+.submitreview{
+    height:30px;
+    width: 150px;
+    background:teal;
+    color:white;
+    border:1px solid teal;
+    border-radius: 10px;
+}
+.detailsblock2{
+    
+    border-top: 1px solid grey;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+#noadded{
+    height:20px;
+    width:20px;
+}
+.detailsblock3{
+    color:red;
+}
+.imagediv>img:hover{
+    box-shadow: 0 0 5px grey;
+    transform:translateY(-1vmax);
+}
+#status{
+    font-size:20px;
+    border-top: 1px solid grey;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.details{
+    
+    padding:20px;
+}.details>div{
+    margin-top:30px;
+}
+.details>p{
+    margin-top:10px;
+}
+.reviewsHeading{
+color:black;
+font:500 1.4vmax;
+text-align:center;
+border-bottom:1px solid grey;
+width:20vmax;
+margin:auto;margin-bottom: 5vmax;
+}
+.reviewcard{
+    flex:none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.226);
+    border:1px solid black;
+    width : 30vmax;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:5vmax;
+}
+.reviewcard>img{
+    width:5vmax;
+}
+.noReviews {
+    font: 400 1.3vmax "Gill Sans";
+    text-align: center;
+    color: rgba(0, 0, 0, 0.548);
+  }
