@@ -1,0 +1,45 @@
+{
+  "Users": [
+    {
+      "name": "abhishek",
+      "age": "24",
+      "fixed": "on",
+      "address": "umanagar",
+      "pincode": "841414",
+      "id": 1
+    },
+    {
+      "name": "navneet",
+      "age": "27",
+      "fixed": "on",
+      "address": "nalanda",
+      "pincode": "821978",
+      "id": 2
+    },
+    {
+      "name": "navneet",
+      "age": "27",
+      "fixed": "on",
+      "address": "nalanda",
+      "pincode": "700899",
+      "id": 3
+    },
+    {
+      "name": "akash",
+      "age": "66",
+      "fixed": false,
+      "address": "kanyakumari",
+      "pincode": "889966",
+      "id": 4
+    },
+    {
+      "name": "sudhanshu",
+      "age": "88",
+      "fixed": false,
+      "address": "rameshwaram",
+      "pincode": "996633",
+      "id": 5
+    }
+   
+  ]
+}
