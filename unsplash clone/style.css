@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header-section{
+    width:100%;
+    height:100vh;
+    position:relative;
+    background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    font-size: 80px;
+    font-weight:400;
+    color:pink;
+    text-transform: capitalize;
+}
+.sub-heading{
+    font-size: 20px;
+    font-weight:400;
+    color: white;
+    text-transform: capitalize;
+}
+
+.search-box{
+    display: block;
+    margin:60px auto 20px;
+    width:100%;
+    height:50px;
+    padding:10px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    text-transform: capitalize;
+}
+.search-btn{
+    padding:10px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    background:black;
+    color:#fff;
+
+}
+.gallery{
+    padding:40px;
+    width:100%;
+    background:white;
+    columns:4;
+    column-gap: 20px;
+}
+.gallery>img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    margin-bottom: 20px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.image-popup{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:80%;
+    height:70vh;
+    background:#fff;
+    box-shadow: 0px,5px, 50px rgba(0,0,0,0.25);
+    border-radius:10px;
+    transition:.5s;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.image-popup.hide{
+    display:none;
+    opacity:0;
+}
+.close-btn{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:20px;height:20px;
+    border-radius: 50%;
+    text-transform: capitalize;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    background:red;
+    color:#fff;
+}
+
+.download-image{
+    text-transform: capitalize;
+    padding:10px;
+    position:absolute;
+    background:black;
+    color: #fff;
+    right:10px;
+    top:10px;
+    border-radius:5px;
+    text-decoration: none;
+}
+.large-image{
+    height:80%;
+    width:auto;
+    max-width: 80%;
+    object-fit: cover;
+    border-radius:10px;
+}
